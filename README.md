@@ -8,3 +8,10 @@
  - Deliverable 3: Optimize the Model
  - Deliverable 4: A Written Report on the Neural Network Model
 -------------
+## Results
+
+#### Data Preprocessing
+
+#### Compiling, Training, and Evaluation
+
+#### Optimization
