@@ -11,8 +11,13 @@
 ## Results
 
 ### Data Preprocessing
-
+ - Columns "EIN" and "NAME" were dropped as they were ID columns, and therefore not needed for the model.
+ - Columns "APPLICATION_TYPE" and "CLASSIFICATION" were subjected to binning in order to reduce the number of unique values.
+ - The categorical data is separated into a new data frame to be encoded using OneHotEncoder. After being encoded, the new data frame is merged back with the original dataset (while dropping the original non-encoded columns).
+ - The data is split into training and testing variables and then is scaled using StandardScaler.
 ### Compiling, Training, and Evaluation
+
+
 
 ### Optimization
  - Attempt 1: More neurons were added to both of the hidden layers (140 (layer one) and 80 (layer two). The model accuracy was 72.8% and the loss metric was 56.5%
